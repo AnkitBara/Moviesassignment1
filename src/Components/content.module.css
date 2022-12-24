@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.content{
+    display: flex;
+    
+}
+.popular{
+    background-color: rgb(73, 62, 62);
+    padding: 10px;
+    margin-bottom: 50px;
+
+}
+.h2{
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+.series{
+    height: 200px;
+    width: 120px;
+    background-color: rgb(47, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 85px; */
+    color: white;
+    
+}
+.movies{
+    height: 200px;
+    width: 120px;
+    background-color: rgb(47, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85px;
+    color: white;
+    
+}
+.content1{
+    padding-left: 85px;
+}
+.p{
+    margin-left: 85px;
+    
+}
+
+.contain{
+    display:flex;
+    margin-left: 85px;
+    flex-wrap: wrap;
+
+}
+.grid{
+    margin: 15px;
+    flex-direction: row;
+    /* box-sizing: border-box; */
+    width: 150px;
+}

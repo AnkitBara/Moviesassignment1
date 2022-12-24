@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+    /*  */
+    color: rgb(255, 255, 255);
+    padding-left: 75px;
+
+
+
+
+}
+.nav{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav > a{
+    float: right;
+
+}
+.start{
+    background-color: rgb(96, 66, 66);
+    color: antiquewhite;
+    padding: 10px;
+    border-style: none;
+    margin-left: 40px;
+    margin-right: 75px;
+}
